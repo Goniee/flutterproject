@@ -85,7 +85,7 @@ class MyApp extends StatelessWidget {
                 builder: (context, themeProvider, child) {
               return MaterialApp(
                 debugShowCheckedModeBanner: false,
-                title: 'BalochDev Shopping',
+                title: 'Tony Shop',
                 theme: Styles.themeData(
                     isDarkTheme: themeProvider.getIsDarkTheme,
                     context: context),
